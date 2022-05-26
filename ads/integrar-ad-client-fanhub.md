@@ -4,11 +4,11 @@ O objetivo desse documento é auxiliar os nossos parceiros de negócios a instal
  
 # Antes de começarmos
  
-Para cada parceiro comercial é feito um cadastro especifico para tamanhos de imagens que compoeem a vitrine de display, entre em contato com a area de engenharia da FanHub para receber as informacoes de `parceiros` e dos `tipos de anuncios` disponiveis para o seu site.
+Para cada parceiro comercial é feito um cadastro especifico para tamanhos de imagens que compõem a vitrine de display, entre em contato com a area de engenharia da FanHub para receber as informacões de `parceiros` e dos `tipos de anúncios` disponíveis para o seu site.
  
 # Código para parceiros
  
-Adicione o código abaixo antos do fechamento da tag `</body>` do seu site
+Adicione o código abaixo antos do fechamento da tag `</body>` do seu site.
  
 ```
 <script>
@@ -32,9 +32,9 @@ Os tipos de anúncios especificam os parâmetros de um anúncio para determinar 
  
 Os tipos de anúncios são registrados previamente com o time de Engenharia da FanHub. Entre em contato conosco para saber quais tipos de anúncios estão disponíveis para o seu site.
  
-Depois de inserir o `código para parceiros` nas paginas onde serão exibidos anúncios da rede de display da FanHub, use o exemplo abaixo para adicionar o HTML de demarcação de cada bloco de `tipo de anuncio` disponível para o seu site.
+Depois de inserir o `código para parceiros` nas paginas onde serão exibidos anúncios da rede de display da FanHub, use o exemplo abaixo para adicionar o HTML de demarcação de cada bloco de `tipo de anúncio` disponível para o seu site.
  
-Tomando como exemplo que você é o parceiro `parceiro-teste` e que você recebeu os tipos de anuncios `site-square-banner` e `site-full-banner` para adicionar na sua pagina, os seus blocos de demarcação em HTML ficariam como abaixo:
+Tomando como exemplo que você é o parceiro `parceiro-teste` e que você recebeu os tipos de anúncios `site-square-banner` e `site-full-banner` para adicionar na sua página, os seus blocos de demarcação em HTML ficariam como abaixo:
  
 ```
 <div data-fanhub-publisher="parceiro-teste" data-fanhub-type="site-square-banner"></div>
@@ -43,7 +43,7 @@ Tomando como exemplo que você é o parceiro `parceiro-teste` e que você recebe
 <div data-fanhub-publisher="parceiro-teste" data-fanhub-type="site-full-banner"></div>
 ```
 
-Veja um exemplo de uma pagina integrada com o ad-cliente [clicando aqui](https://github.com/fanhubteam/docs/blob/master/ads/exemplo-integrar-ad-client.html)
+Veja um exemplo de uma pagina integrada com o ad-cliente [clicando aqui] (https://github.com/fanhubteam/docs/blob/master/ads/exemplo-integrar-ad-client.html)
  
 # O que acontece quando um anuncio é veiculado para um visitante do meu site?
  
@@ -51,8 +51,8 @@ Sempre que um anúncio é entregue para um visitante do seu site, as ações aba
  
 ## Quando o visitante visualizar o anúncio
  
-1. Sera registrado em nosso servidor uma acao de `visualização de anuncio`.
-2. será renderizado o anúncio para o visitante, no caso de um anúncio do tipo imagem, será renderizado uma imagem com as dimensões pré-definidas no navegador ao cliente, no espaço previamente determinado.
+1. Será registrado em nosso servidor uma acão de `visualização de anúncio`.
+2. Será renderizado o anúncio para o visitante, no caso de um anúncio do tipo imagem, será renderizado uma imagem com as dimensões pré-definidas no navegador ao cliente, no espaço previamente determinado.
  
 ## Quando o visitante clica no anúncio
  
